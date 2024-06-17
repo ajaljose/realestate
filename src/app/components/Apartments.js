@@ -27,6 +27,19 @@ function Apartments() {
             <p>One of the largest initial real estate deals in history</p>
             <p>This is treaty paved the way for westeren expansion</p>
           </div>
+
+          <div className='mid' style={{ backgroundImage: "url('/assets/images/bu9.jpg')", backgroundSize: 'cover' }}>
+
+
+          </div>
+          <div className='right'>
+            <p>Luxury</p>
+            <p>RealtorLife</p>
+            <p>Dreamhome</p>
+            <p>Mortgage</p>
+            <p>Architecture</p>
+            <p>HouseHunting</p>
+          </div>
         </div>
       </div>
     </div>
