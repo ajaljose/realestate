@@ -26,13 +26,34 @@
         height: 100rem;
         background-image: linear-gradient(#4578A6, #A9CDCF);
         position: relative;
-
+        @media (max-width:800px) {
+            height: 75rem;
+        }
         &__head {
             width: 100%;
             text-align: center;
             font-size: 37rem;
             color: white;
             line-height: 37rem;
+            @media (max-width:1535px) {
+                font-size: 33rem;
+            }
+            @media (max-width:1375px) {
+                font-size: 30rem;
+            }
+            @media (max-width:1260px) {
+                font-size: 25rem;
+            }
+            @media (max-width:1115px) {
+                font-size: 22rem;
+            }
+            @media (max-width:800px) {
+                font-size: 13rem;
+            }
+            @media (max-width:600px) {
+                font-size: 10rem;
+                line-height: 10rem;
+            }
         }
 
         &__image {
@@ -42,6 +63,11 @@
             bottom: 0;
             height: 85rem;
             overflow: hidden;
+            @media (max-width:800px) {
+                height: 50rem;
+                top: 36.2%;
+            left: 15%;
+            }
         }
 
         &__finsol {
@@ -69,7 +95,11 @@
             position: absolute;
             top: 55%;
             transition: all 0.7s ease 0s;
-
+            @media (max-width:800px) {
+                top: 32%;
+                height: 20rem;
+                width: 15rem;
+            }
             &:hover {
                 transform: scale(1.1);
                 cursor: pointer;
@@ -83,6 +113,13 @@
             font-size: 2.5rem;
             width: 50rem;
             color: white;
+            @media (max-width:1260px) {
+                width: 30rem;
+                font-size: 2rem;
+                top: 70%;
+                left: 35%;
+                text-shadow: rgba(0, 0, 0, 0.95) 0px 5px 15px;
+            }
         }
 
         &__smImg2 {
@@ -93,7 +130,12 @@
             top: 55%;
             left: 60%;
             transition: all 0.7s ease 0s;
-
+            @media (max-width:800px) {
+                height: 22rem;
+                width: 17rem;
+                top: 18%;
+            left: 55%;
+            }
             &:hover {
                 transform: scale(1.05);
                 cursor: pointer;
@@ -105,6 +147,9 @@
             top: 50%;
             left: 70%;
             width: 30rem;
+            @media (max-width:800px) {
+                display: none;
+            }
         }
     }
 
@@ -142,6 +187,9 @@
         text-align: center;
         font-size: 10rem;
         font-weight: normal;
+        @media (max-width:800px) {
+            font-size: 5rem;
+        }
     }
 
     &__grid {
@@ -156,11 +204,16 @@
             width: 45%;
             border-radius: 3rem;
             padding: 5rem;
-
+            @media (max-width:800px) {
+                height: 40rem;
+            }
             h1 {
                 color: white;
                 font-size: 6rem;
                 width: 5rem;
+                @media (max-width:800px) {
+                    font-size: 2rem;
+                }
             }
 .darkHdr{
     color: black;
@@ -223,6 +276,9 @@
         font-size: 10rem;
         font-weight: normal;
         margin-top: 10rem;
+        @media (max-width:800px) {
+            font-size: 5rem;
+        }
     }
 
     &__client {
@@ -233,14 +289,21 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-
+        @media (max-width:800px) {
+            height: 40rem;
+            margin: 1.5rem;
+        padding: 0.4rem;
+        }
         &__review {
             border-radius: 1.5rem;
             width: 21%;
             height: 50%;
             background-color: white;
             box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
+            @media (max-width:800px) {
+                width: 49%;
+                height: 90%;
+            }
             .banner {
                 border-radius: 1rem;
                 display: flex;
