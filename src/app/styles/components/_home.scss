@@ -1,0 +1,173 @@
+.hero{
+    &__header{
+
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem;
+        align-items: center;
+        &__name{
+            font-weight: 700;
+        }
+        &__tagline{
+            width: 25rem;
+            text-align: center;
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+    }
+
+
+    &__banner{
+        padding: 3rem;
+        margin: 3rem;
+        border-radius: 2rem;
+        height: 100rem;
+        background-image: linear-gradient(#4578A6, #A9CDCF);
+        position: relative;
+        &__head{
+            width: 100%;
+            text-align: center;
+            font-size: 37rem;
+            color: white;
+            line-height: 37rem;
+        }
+        &__image{
+            position: absolute;
+            top: 18.8%;
+            left: 15%;
+            bottom: 0;
+            height: 85rem;
+            overflow: hidden;
+        }
+        &__finsol{
+            display: flex;
+            flex-direction: column;
+            font-size: 1.5rem;
+            color: white;
+            height: 10rem;
+            justify-content: space-between;
+            hr{
+                width: 4rem;
+                font-weight: 900;
+            }
+            p{
+                width: 20rem;
+            }
+        }
+        &__smImg1{
+            width: 25rem;
+            height: 30rem;
+            border-radius: 2.5rem;
+            position: absolute;
+            top: 55%;
+            transition: all 0.7s ease 0s;
+            &:hover{
+                transform: scale(1.1);
+                cursor: pointer;
+            }
+        }
+        &__tagline2{
+            position: absolute;
+            top: 40%;
+            left: 60%;
+            font-size: 2.5rem;
+            width: 50rem;
+            color: white;
+        }
+        &__smImg2{
+            width: 35rem;
+            height: 40rem;
+            border-radius: 2.5rem;
+            position: absolute;
+            top: 55%;
+            left: 60%;
+            transition: all 0.7s ease 0s;
+            &:hover{
+                transform: scale(1.05);
+                cursor: pointer;
+            }
+        }
+        &__iphone{
+            position: absolute;
+            top: 50%;
+            left: 70%;
+            width: 30rem;
+        }
+    }
+    &__footer{
+        display: flex;
+        font-size: 1.5rem;
+        padding: 3rem;
+        &__features{
+            display: flex;
+            flex-wrap: wrap;
+            width: 40rem;
+            h4{
+                border: 2px solid black;
+                padding: 1rem 1.4rem;
+                border-radius: 3rem;
+                margin-right: 2rem;
+                margin-bottom: 1rem;
+            }
+        }
+        &__desc{
+            width: 30rem;
+            font-size: 2rem;
+        }
+    }
+}
+
+.apartment{
+    display: flex;
+    flex-direction: column;
+    &__header{
+        text-align: center;
+        font-size: 10rem;
+        font-weight: normal;
+    }
+    &__grid{
+        margin-top: 7rem;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-around;
+        &__half{
+            height: 80rem;
+            width: 45%;
+            border-radius: 3rem;
+            padding: 5rem;
+            h1{
+                color: white;
+                font-size: 6rem;
+                width: 5rem;
+            }
+            margin-bottom: 5rem;
+        }
+        
+    }
+    &__resource{
+        &__header{
+            margin: 0 5rem;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid gray;
+            font-size: 1.5rem;
+            padding: 2rem;
+        }
+        &__body{
+            display: flex;
+            margin: 0 5rem;
+            .left{
+                padding: 2rem;
+                display: inherit;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: space-between;
+                height: 30rem;
+                width: 25rem;
+                font-size: 1.2rem;
+                font-weight: 500;
+            }
+        }
+    }
+}
