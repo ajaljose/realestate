@@ -1,5 +1,10 @@
 import React from "react";
-
+import bu2 from '/public/assets/images/bu2.jpg';
+import bu8 from '/public/assets/images/bu8.jpg';
+import bu9 from '/public/assets/images/bu9.jpg';
+import bu3 from '/public/assets/images/bu3.jpg';
+import bu4 from '/public/assets/images/bu4.jpg';
+import bu5 from '/public/assets/images/bu5.jpg';
 function Apartments() {
   return (
     <div className="apartment">
@@ -9,7 +14,7 @@ function Apartments() {
           className="apartment__grid__half"
           id="left"
           style={{
-            backgroundImage: "url('/assets/images/bu2.jpg')",
+            backgroundImage: `url(${bu2.src})`,
             backgroundSize: "cover",
           }}
         >
@@ -19,7 +24,7 @@ function Apartments() {
           className="apartment__grid__half"
           id="right"
           style={{
-            backgroundImage: "url('/assets/images/bu8.jpg')",
+            backgroundImage: `url(${bu8.src})`,
             backgroundSize: "cover",
           }}
         >
@@ -44,7 +49,7 @@ function Apartments() {
           <div
             className="mid"
             style={{
-              backgroundImage: "url('/assets/images/bu9.jpg')",
+              backgroundImage: `url(${bu9.src})`,
               backgroundSize: "cover",
             }}
           ></div>
@@ -62,7 +67,7 @@ function Apartments() {
       <div
         className="apartment__client"
         style={{
-          backgroundImage: "url('/assets/images/bu3.jpg')",
+          backgroundImage: `url(${bu3.src})`,
           backgroundSize: "cover",
         }}
       >
@@ -72,7 +77,7 @@ function Apartments() {
           <div
             className="banner"
             style={{
-              backgroundImage: "url('/assets/images/bu3.jpg')",
+              backgroundImage: `url(${bu3.src})`,
               backgroundSize: "cover",
             }}
           >
@@ -96,7 +101,7 @@ function Apartments() {
           className="apartment__grid__half"
           id="left"
           style={{
-            backgroundImage: "url('/assets/images/bu4.jpg')",
+            backgroundImage: `url(${bu4.src})`,
             backgroundSize: "cover",
           }}
         >
@@ -106,7 +111,7 @@ function Apartments() {
           className="apartment__grid__half"
           id="right"
           style={{
-            backgroundImage: "url('/assets/images/bu5.jpg')",
+            backgroundImage: `url(${bu5.src})`,
             backgroundSize: "cover",
           }}
         >
