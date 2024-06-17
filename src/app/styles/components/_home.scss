@@ -1,14 +1,16 @@
-.hero{
-    &__header{
+.hero {
+    &__header {
 
         display: flex;
         justify-content: space-between;
         padding: 2rem;
         align-items: center;
-        &__name{
+
+        &__name {
             font-weight: 700;
         }
-        &__tagline{
+
+        &__tagline {
             width: 25rem;
             text-align: center;
             font-size: 1.2rem;
@@ -17,21 +19,23 @@
     }
 
 
-    &__banner{
+    &__banner {
         padding: 3rem;
         margin: 3rem;
         border-radius: 2rem;
         height: 100rem;
         background-image: linear-gradient(#4578A6, #A9CDCF);
         position: relative;
-        &__head{
+
+        &__head {
             width: 100%;
             text-align: center;
             font-size: 37rem;
             color: white;
             line-height: 37rem;
         }
-        &__image{
+
+        &__image {
             position: absolute;
             top: 18.8%;
             left: 15%;
@@ -39,34 +43,40 @@
             height: 85rem;
             overflow: hidden;
         }
-        &__finsol{
+
+        &__finsol {
             display: flex;
             flex-direction: column;
             font-size: 1.5rem;
             color: white;
             height: 10rem;
             justify-content: space-between;
-            hr{
+
+            hr {
                 width: 4rem;
                 font-weight: 900;
             }
-            p{
+
+            p {
                 width: 20rem;
             }
         }
-        &__smImg1{
+
+        &__smImg1 {
             width: 25rem;
             height: 30rem;
             border-radius: 2.5rem;
             position: absolute;
             top: 55%;
             transition: all 0.7s ease 0s;
-            &:hover{
+
+            &:hover {
                 transform: scale(1.1);
                 cursor: pointer;
             }
         }
-        &__tagline2{
+
+        &__tagline2 {
             position: absolute;
             top: 40%;
             left: 60%;
@@ -74,7 +84,8 @@
             width: 50rem;
             color: white;
         }
-        &__smImg2{
+
+        &__smImg2 {
             width: 35rem;
             height: 40rem;
             border-radius: 2.5rem;
@@ -82,27 +93,32 @@
             top: 55%;
             left: 60%;
             transition: all 0.7s ease 0s;
-            &:hover{
+
+            &:hover {
                 transform: scale(1.05);
                 cursor: pointer;
             }
         }
-        &__iphone{
+
+        &__iphone {
             position: absolute;
             top: 50%;
             left: 70%;
             width: 30rem;
         }
     }
-    &__footer{
+
+    &__footer {
         display: flex;
         font-size: 1.5rem;
         padding: 3rem;
-        &__features{
+
+        &__features {
             display: flex;
             flex-wrap: wrap;
             width: 40rem;
-            h4{
+
+            h4 {
                 border: 2px solid black;
                 padding: 1rem 1.4rem;
                 border-radius: 3rem;
@@ -110,43 +126,52 @@
                 margin-bottom: 1rem;
             }
         }
-        &__desc{
+
+        &__desc {
             width: 30rem;
             font-size: 2rem;
         }
     }
 }
 
-.apartment{
+.apartment {
     display: flex;
     flex-direction: column;
-    &__header{
+
+    &__header {
         text-align: center;
         font-size: 10rem;
         font-weight: normal;
     }
-    &__grid{
+
+    &__grid {
         margin-top: 7rem;
         display: flex;
         align-items: center;
         width: 100%;
         justify-content: space-around;
-        &__half{
+
+        &__half {
             height: 80rem;
             width: 45%;
             border-radius: 3rem;
             padding: 5rem;
-            h1{
+
+            h1 {
                 color: white;
                 font-size: 6rem;
                 width: 5rem;
             }
+.darkHdr{
+    color: black;
+}
             margin-bottom: 5rem;
         }
-        
+
     }
-    &__resource{
-        &__header{
+
+    &__resource {
+        &__header {
             margin: 0 5rem;
             display: flex;
             justify-content: space-between;
@@ -154,11 +179,13 @@
             font-size: 1.5rem;
             padding: 2rem;
         }
-        &__body{
+
+        &__body {
             display: flex;
             margin: 0 5rem;
             justify-content: space-between;
-            .left{
+
+            .left {
                 padding: 2rem;
                 display: inherit;
                 flex-direction: column;
@@ -169,13 +196,15 @@
                 font-size: 1.2rem;
                 font-weight: 500;
             }
-            .mid{
+
+            .mid {
                 margin: 2rem;
                 height: 28rem;
                 width: 23rem;
                 border-radius: 1.5rem;
             }
-            .right{
+
+            .right {
                 padding: 2rem;
                 display: inherit;
                 flex-direction: column;
@@ -185,6 +214,72 @@
                 width: 25rem;
                 font-size: 1.2rem;
                 font-weight: 500;
+            }
+        }
+    }
+
+    &__cliHeader {
+        text-align: center;
+        font-size: 10rem;
+        font-weight: normal;
+        margin-top: 10rem;
+    }
+
+    &__client {
+        height: 80rem;
+        margin: 5rem;
+        padding: 2rem;
+        border-radius: 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &__review {
+            border-radius: 1.5rem;
+            width: 21%;
+            height: 50%;
+            background-color: white;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+            .banner {
+                border-radius: 1rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 50%;
+                width: 90%;
+                margin: 5%;
+            }
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            p{
+                margin: 5%;
+                font-size: 1.3rem;
+                font-weight: 500;
+            }
+            .reviewer{
+                width: 90%;
+                margin: 5%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-direction: row;
+                &__name{
+                    // width: 90%;
+                    // margin: 5%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    flex-direction: column;
+                }
+                &__rating{
+                    font-size: 2rem;
+                    font-weight: 900;
+                }
             }
         }
     }
